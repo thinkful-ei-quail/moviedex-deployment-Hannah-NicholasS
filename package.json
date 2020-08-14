@@ -1,14 +1,17 @@
 {
-  "name": "moviedex-api",
+  "name": "moviedex-api-deployment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "nodemon server",
+    "start": "node server"
   },
-  "author": "warptrail hannah",
+  "engines": {
+    "node": "12.18.2"
+  },
+  "author": "Hannah, Nicholas S",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
